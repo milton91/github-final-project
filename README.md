@@ -22,6 +22,12 @@ A calculator that calculates simple interest given principal, annual rate of int
 ## Output:
    simple interest = p*t*r
    
+   ```shell
+   s=`expr $p \* $t \* $r / 100`
+   echo "The simple interest is: "
+   echo $s
+   ```
+   
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first
 to discuss what you would like to change.
